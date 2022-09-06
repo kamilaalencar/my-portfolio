@@ -3,7 +3,7 @@ import { Text } from "@/styles/Text";
 import { Footer as FooterWrapper } from "./style";
 import { UserImage } from "@/pages/home/style";
 import { userData } from "@/utils/userData";
-import { FaLinkedinIn, FaInstagram, FaFacebookF } from "react-icons/fa";
+import {  FaInstagram, FaFacebookF, FaTwitter } from "react-icons/fa";
 import { Button } from "@/styles/Buttons";
 // import { HandEffect } from "../HandEffect";
 
@@ -21,10 +21,10 @@ export const Footer = (): JSX.Element => {
           />
           <Box css={{ marginLeft: "$2" }}>
             <Text type="heading4" color="grey5" css={{ marginBottom: "$2" }}>
-              Thank you! {/* <HandEffect /> */}
+              Obrigado!!! {/* <HandEffect /> */}
             </Text>
             <Text type="body1" color="grey2">
-              Follow me on my social networks and let's talk
+            Siga-me nas minhas redes sociais e vamos conversar
             </Text>
           </Box>
         </Flex>
@@ -54,13 +54,13 @@ export const Footer = (): JSX.Element => {
             <FaFacebookF />
           </Button>
           <Button
-            className="linkedin"
+            className="twitter"
             type="circle"
             as="a"
             target="_blank"
-            href={`https://linkedin.com/in/${userData.linkedinUser}`}
+            href={`https://twitter.com/${userData.twitterUser}`}
           >
-            <FaLinkedinIn />
+            <FaTwitter />
           </Button>
         </Flex>
       </Container>
