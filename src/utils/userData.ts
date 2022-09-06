@@ -6,4 +6,5 @@ export const userData = {
   emailUser: "kamilaalencar1998@gmail.com",
   instagramUser: "kamis.alencar",
   facebookUser: "kamila.alencarmachado",
+  twiterUser:"KamilaAlencarM2",
 };
