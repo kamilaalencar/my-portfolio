@@ -95,7 +95,7 @@ export const Home = (): JSX.Element => {
           <ProjectAreaWrapperColumns>
             <ProjectsAreaSocialMediaMessage>
               <Text as="h2" type="heading4" color="grey4">
-                Meus Projetos Front-End
+                Meus Projetos
               </Text>
             </ProjectsAreaSocialMediaMessage>
             <ProjectsAreaContent>
